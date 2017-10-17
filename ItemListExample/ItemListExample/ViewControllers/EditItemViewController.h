@@ -16,6 +16,8 @@
 
 -(void) notifyItemEdited:(MarketItemModel *)editedItem;
 
+-(void) notifyItemDeleted:(MarketItemModel *)deletedItem;
+
 @end
 
 @interface EditItemViewController : UIViewController

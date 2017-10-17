@@ -70,16 +70,28 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTR-bQ-zTg">
+                    <rect key="frame" x="0.0" y="318.5" width="375" height="30"/>
+                    <state key="normal" title="Eliminar">
+                        <color key="titleColor" red="1" green="0.2418105188256664" blue="0.19126138945568805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="delete:" destination="-1" eventType="touchUpInside" id="vLG-dJ-He8"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="BTR-bQ-zTg" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="4sh-aR-duz"/>
                 <constraint firstItem="nCL-Zp-bZh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="5Bj-FA-Ffn"/>
                 <constraint firstItem="PDn-qF-CVH" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="Aqm-QK-aGl"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="P31-D0-Qbe" secondAttribute="trailing" constant="16" id="D6d-eE-8ra"/>
                 <constraint firstItem="nCL-Zp-bZh" firstAttribute="top" secondItem="PDn-qF-CVH" secondAttribute="bottom" constant="35" id="GUH-8J-q9C"/>
                 <constraint firstItem="fL2-tW-Xvw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="91" id="Jqb-y4-q3i"/>
+                <constraint firstItem="BTR-bQ-zTg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="L1J-nw-jpZ"/>
                 <constraint firstItem="PDn-qF-CVH" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="100" id="LrF-cG-Q8Z"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="fL2-tW-Xvw" secondAttribute="trailing" constant="16" id="TQD-Zh-hW3"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="BTR-bQ-zTg" secondAttribute="trailing" id="Vha-ip-PLK"/>
                 <constraint firstItem="YSY-Me-hnX" firstAttribute="top" secondItem="nCL-Zp-bZh" secondAttribute="bottom" constant="69" id="WX9-Jm-YfW"/>
                 <constraint firstItem="fL2-tW-Xvw" firstAttribute="leading" secondItem="PDn-qF-CVH" secondAttribute="trailing" constant="17" id="YhR-zT-KJH"/>
                 <constraint firstItem="P31-D0-Qbe" firstAttribute="leading" secondItem="nCL-Zp-bZh" secondAttribute="trailing" constant="24" id="bQw-ds-BfF"/>

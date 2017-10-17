@@ -66,4 +66,12 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+-(IBAction)delete:(id)sender
+{
+    if(self.editableItem) {
+        [self.delegate notifyItemDeleted:self.editableItem];
+    }
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

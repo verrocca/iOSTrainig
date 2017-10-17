@@ -89,4 +89,11 @@
     [self.tableView reloadData];
 }
 
+-(void) notifyItemDeleted:(MarketItemModel *)deletedItem
+{
+    [self.itemList removeObject:deletedItem];
+    
+    [self.tableView reloadData];
+}
+
 @end
